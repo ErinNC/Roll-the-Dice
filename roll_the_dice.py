@@ -54,6 +54,7 @@ dice_art = {
         "└─────────┘",
     )
 }
+
 die_height = len(dice_art[1])
 die_width = len(dice_art[1][0])
 die_separator = " "
@@ -103,7 +104,6 @@ def generate_dice_diagrams(roll_results):
     │  ●   ●  │ |    ●    | |    ●    | |         |
     │  ●   ●  │ |  ●   ●  | |      ●  | |      ●  | 
     └─────────┘ └─────────┘ └─────────┘ └─────────┘
-
     """
 
     dice_faces = _get_dice_faces(roll_results)
@@ -136,6 +136,7 @@ def _generate_dice_faces_rows(dice_faces):
         dice_faces_rows.append(row_string)
     return dice_faces_rows
 
+
 # ------------------ Application's main code block ------------------
 
 # 1. Prompt user to enter an integer 1-6 for how many dice to roll
@@ -152,7 +153,3 @@ dice_face_diagram = generate_dice_diagrams(roll_results)
 
 # 5. Display the diagram result of user input
 print(f"\n{dice_face_diagram}")
-
-
-
-
