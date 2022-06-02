@@ -17,4 +17,4 @@ Built using Python 3.10.4 in VS Code 1.67.2
 ### Next Steps & More
 - I intend to add a command-line interface in the future. Instructions available [here](https://realpython.com/command-line-interfaces-python-argparse/)
 
-- Step-by-step instructions to create the dice simulator app can be found [here](https://realpython.com/python-dice-roll/#project-overview)
+- Instructions to create the dice simulator app can be found [here](https://realpython.com/python-dice-roll/#project-overview)
